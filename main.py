@@ -1,14 +1,10 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-    total = 0
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    i = 0; total = 0
+    while(i<5):
+        num = int(input(0))
+        total += num
+        i += 1
+    print(total)
     return total
 
 
